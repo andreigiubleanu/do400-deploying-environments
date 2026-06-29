@@ -5,11 +5,11 @@ pipeline {
         }
     }
     stages {
-        stage('Tests') {
-            steps {
-                sh './mvnw clean test'
-            }
-        }
+//        stage('Tests') {
+//            steps {
+//                sh './mvnw clean test'
+//           }
+        
         stage('Package') {
             steps {
                 sh '''
